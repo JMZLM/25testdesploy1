@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+section {
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid transparent; /* Transparent border */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    text-align: center;
+}
+
+#emotion-display {
+    color: #1DB954;
+    font-weight: bold;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #14833b;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1DB954;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #14833b;
+}
+
+#album-cover {
+    margin: 10px auto;
+    max-width: 150px;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+#playback-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#playback-controls button {
+    padding: 10px;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#playback-controls button:hover {
+    background-color: #14833b;
+}
+
+/* New styles for song info box */
+#song-info-box {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#song-details {
+    font-size: 14px;
+    color: #666;
+}
+
+
+#detect-emotion {
+    background-color: transparent; /* Makes the section's background fully transparent */
+    border: none; /* Removes any border */
+    box-shadow: none; /* Removes any shadow */
+    padding: 0; /* Remove padding */
+    text-align: center;
+}
+
+#detect-emotion a {
+    background-color: #1DB954; /* Green background for the button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#detect-emotion a:hover {
+    background-color: #14833b; /* Darker green on hover */
+}
