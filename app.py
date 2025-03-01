@@ -46,7 +46,7 @@ SPOTIFY_API_BASE_URL = "https://api.spotify.com/v1"
 
 
 # Google Drive file ID of your YOLO model (you can get this from the shareable link)
-MODEL_URL = "https://drive.google.com/uc?id=15T5uc8iMm5Fs8XQIHaRy8W6LYQrVErCQ"
+MODEL_URL = "https://drive.google.com/uc?id=1pHYbhklNNfo8BZZWe7HtJ1K-X2EY16CL"
 
 # Function to download YOLO model weights from Google Drive
 def download_model():
